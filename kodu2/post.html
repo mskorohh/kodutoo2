@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+  body { background: white; }
+</style>
+
+<link type="text/css"  rel="stylesheet" href="minustiil.css" />
+<meta charset="UTF-8"> 
+</head>
+<body>
+<h1>POST-meetod</h1>
+<form action="/someotherfile.php" method="post">
+  Eesnimi:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="fname"><br>
+  Perekonnanimi: <input type="text" name="lname"><br>
+  Sugu: <br>
+	<input type="radio" name="sugu" value="naine">Naine<br>
+	<input type="radio" name="sugu" value="mees">Mees<br>
+  Haridus: <br>
+	<input type="checkbox" name="haridus" value="korg">Kõrgharidus<br>
+	<input type="checkbox" name="haridus" value="kesk">Keskharidus<br>
+	<input type="checkbox" name="haridus" value="muu">Muu<br>
+  Elukoht: <select>
+  <option value="tln">Tallinn</option>
+  <option value="trt">Tartu</option>
+  <option value="prn">Pärnu</option>
+  <option value="muu">Muu</option>
+</select><br>
+  Lemmiktoit: <input type="sook" name="sook"><br>
+<p><input type="submit" value="Submit"></p>
+</form>
+
+</body>
+</html>
